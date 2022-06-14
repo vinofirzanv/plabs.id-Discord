@@ -99,7 +99,7 @@ body{
 }
 
 /* This side bar 2 */
-.side-bar2{
+.side-bars{
     background-color: #2F3136;
     height: 100%;
     width: 200px;
@@ -110,13 +110,13 @@ body{
     padding-top: 10px;
 }
 
-.side-bar2 img{
+.side-bars img{
     width: 20%;
     height: max-content;
     object-fit: cover;
 }
 
-.side-bar2 input {
+.side-bars input {
     margin-left: 8px;
     background-color: #2b2d31;
     color: white;
@@ -131,12 +131,12 @@ body{
     color: white;
 }
 
-.side-bar2 #line{
+.side-bars #line{
     border: 0.5px solid white;
     border-radius: 5px;
 }
 
-.side-bar2 button {
+.side-bars button {
     margin-left: 8px;
     border: none;
     padding: 7px;
@@ -151,12 +151,12 @@ body{
     /* background: url(img/img2.png) #2F3136 no-repeat left ; */
 }
 
-.side-bar2 button:hover{
+.side-bars button:hover{
     background-color: rgb(99, 99, 99);
     border-radius: 5px;
 }
 
-.side-bar2 button>i{
+.side-bars button>i{
     margin: 0 10px 0 10px;
 }
 
@@ -165,11 +165,11 @@ body{
 } */
 
 
-.side-bar2 p{
+.side-bars p{
     padding: 7px;
 }
 
-.side-bar2 p>i{
+.side-bars p>i{
     float: right;
 }
 
@@ -346,4 +346,30 @@ h4{
     color: white;
 }
 
+.side-bars img {
+    float: left;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+}
 
+.side-bars .nama{
+    line-height: 30px;
+}
+
+.side-bars .nama {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.side-bars .close {
+    float: right;
+    cursor: pointer;
+    line-height: 25px;
+    display: none;
+}
+
+.user:hover .close {
+    display:block ;
+}
