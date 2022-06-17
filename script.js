@@ -13,3 +13,18 @@ for( let i = 0;i<close.length;i++){
 //         e.preventDefault();
 //     }
 // });
+
+
+
+
+const sideBar = document.getElementsByClassName("side-bars");
+const add = document.querySelectorAll('.add');
+add.addEventListener('click',function(e){
+    const aBaru = document.createElement('a');
+    const buttonBaru = document.createElement('button');
+    const textBaru = document.createTextNode('Adol');
+    aBaru.appendChild(buttonBaru);
+    buttonBaru.appendChild(textBaru);
+    
+    e.target.appendChild(aBaru);
+});
